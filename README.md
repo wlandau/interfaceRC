@@ -3,6 +3,7 @@ This repo has examples demonstrating the interface between R and C, along with t
 
 Here are some other informative resources.
 
+- The `Rcpp.package.skeleton()` and `compileAttributes()` functions in `Rcpp`.
 - [Hadley Wickham's R/C interface chapter in Advanced R](http://adv-r.had.co.nz/C-interface.html)
 - [Hadley's Rcpp chapter](http://adv-r.had.co.nz/Rcpp.html)
 - [writing R extensions in Windows](http://www.math.kit.edu/stoch/~lindner/media/.c.call%20extensions.pdf)

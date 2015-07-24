@@ -1,5 +1,7 @@
 library(Rcpp)
 
+# Example: sum the rows of a matrix
+
 cppFunction('NumericVector rowSumsC(NumericMatrix x) {
   int nrow = x.nrow(), ncol = x.ncol();
   NumericVector out(nrow);

@@ -12,7 +12,7 @@ Rscript -e 'library(Rcpp); compileAttributes("RcppPackage")'
 ```
 This will generate the necessary `R/RcppExports.R` and `src/RcppExports.cpp` files.
 
-- Open R/RcppExports.R in a text editor and add the following lines right above the definition of `someCPPcode()` with no blank spaces.
+- Open the `R/RcppExports.R` file in a text editor and add `roxygen2` documentation right above the definition of `someCPPcode()` with no blank spaces. The contents of the file should look exactly like this.
 
 ```
 #' @title Function \code{someCPPcode}
@@ -20,6 +20,9 @@ This will generate the necessary `R/RcppExports.R` and `src/RcppExports.cpp` fil
 #' @export
 #' @return NULL
 #' @param r s4 object of class \code{MyClass}
+someCPPcode <- function(r) {
+    .Call('RcppPackage_someCPPcode', PACKAGE = 'RcppPackage', r)
+}
 ```
 
 This ensures that the documentation file for `someCPPcode()` will be generated and the user will have access to this function in an R session.

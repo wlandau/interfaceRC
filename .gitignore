@@ -2,7 +2,7 @@ RcppExports*
 RcppPackage/vignettes/guide.html
 RcppPackage/vignettes/guide.log
 .Rapp.history
-*.gz
+*.tar.gz
 *.log
 *.o
 *.Rcheck

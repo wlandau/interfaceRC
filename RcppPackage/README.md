@@ -2,6 +2,8 @@
 
 This is a skeleton R package that uses Rcpp, CUDA, and s4 classes. This is a learning exercise. To compile and test, 
 
+- Ensure you have the `Rcpp` and `roxygen2` R packages installed.
+
 - Open a command line / Terminal prompt and change the current working directory to the directory containing `RcppPackage`.
 - Run 
 

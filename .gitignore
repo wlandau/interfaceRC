@@ -1,5 +1,7 @@
 RcppExports*
 .Rapp.history
+*.gz
 *.log
 *.o
+*.Rcheck
 *.so

@@ -1,3 +1,6 @@
+#' @include RcppExports.R
+NULL
+
 #' @title Class \code{MyClass}
 #' @description A toy class for figuring out how to pass s4 objects from R to C++.
 #' 

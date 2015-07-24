@@ -7,11 +7,16 @@ Author: Will Landau
 Maintainer: Will Landau <your@email.com>
 Description: A skeleton R package that uses Rcpp.
 License: GPL (>= 2)
-Imports: 
-	methods,
-	Rcpp (>= 0.11.6)
-Suggests: knitr
+Imports:
+    methods,
+    Rcpp (>= 0.11.6)
+Suggests:
+    knitr
 VignetteBuilder: knitr
 LinkingTo: Rcpp
 NeedsCompilation: yes
 Packaged: 2015-06-03 17:39:40 UTC; landau
+Collate:
+    'RcppExports.R'
+    'hello.R'
+    'namespace.R'

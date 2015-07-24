@@ -1,6 +1,8 @@
 RcppExports*
 RcppPackage/vignettes/guide.html
 RcppPackage/vignettes/guide.log
+RcppPackage/NAMESPACE
+RcppPackage/man/
 .Rapp.history
 *.tar.gz
 *.log

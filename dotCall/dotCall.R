@@ -1,4 +1,7 @@
-dyn.load("dotCall.so")
+files = paste0("dotCall.", c("dll", "so"))
+file = files[file.exists(files)][1] # either "dotCall.dll" or "dotCall.so"
+
+dyn.load(file)
 
 # Add 2 numbers and store the result in z.
 
@@ -24,4 +27,4 @@ mydataframe = data.frame(x = as.integer(1, 1), y = c(1, 1), z = c(0, 0))
 .Call("list_add", mylist = mydataframe)
 print(mydataframe)
 
-dyn.unload("dotCall.so")
+dyn.unload(file)

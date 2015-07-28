@@ -6,10 +6,11 @@ This repo has examples demonstrating the interface between R and C, along with t
 
 Here are some other informative resources.
 
-- The `Rcpp.package.skeleton()` and `compileAttributes()` functions in `Rcpp`.
-- [Hadley Wickham's R/C interface chapter in Advanced R](http://adv-r.had.co.nz/C-interface.html)
-- [Hadley's Rcpp chapter](http://adv-r.had.co.nz/Rcpp.html)
+- [Hadley Wickam's guide to writing R packages](http://r-pkgs.had.co.nz/)
+- [Hadley's R/C interface chapter in Advanced R](http://adv-r.had.co.nz/C-interface.html)
+- [Hadley's Rcpp Advanced R chapter](http://adv-r.had.co.nz/Rcpp.html)
 - [setting up `Rtools` on Windows](https://www.biostat.wisc.edu/~kbroman/Rintro/Rwinpack.html)
-- [writing R extensions in Windows](http://www.math.kit.edu/stoch/~lindner/media/.c.call%20extensions.pdf)
+- The `Rcpp.package.skeleton()` and `compileAttributes()` functions in `Rcpp`.
 - [R internals manual](cran.r-project.org/doc/manuals/R-ints.html)
 - [Rinternals.h (for SEXP types)](https://svn.r-project.org/R/trunk/src/include/Rinternals.h)
+- [writing R extensions in Windows](http://www.math.kit.edu/stoch/~lindner/media/.c.call%20extensions.pdf)
